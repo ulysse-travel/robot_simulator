@@ -40,53 +40,46 @@ the initial placement of the toy robot.
 - Any move that would cause the robot to fall must be ignored.
 - Example Input and Output
 
-**Example a**
+-- **Example a**
 
--- PLACE 0,0,NORTH
+PLACE 0,0,NORTH
 
--- MOVE
+MOVE
 
--- REPORT
-
-
-Expected output:
-
--- 0,1,NORTH
-
-**Example b**
-
--- PLACE 0,0,NORTH
-
--- LEFT
-
--- REPORT
+REPORT
 
 
-Expected output:
+-- Expected output:
 
--- 0,0,WEST
+0,1,NORTH
 
-**Example c**
+-- **Example b**
 
--- PLACE 1,2,EAST
+PLACE 0,0,NORTH
 
--- MOVE
+LEFT
 
--- MOVE
+REPORT
 
--- LEFT
 
--- MOVE
+-- Expected output:
 
--- REPORT
+0,0,WEST
 
-Expected output
+-- **Example c**
 
--- 3,3,NORTH
+PLACE 1,2,EAST
 
-Deliverables
+MOVE
 
-Please provide your source code, and any test code/data you using in developing
-your solution.
-Please engineer your solution to a standard you consider suitable for production. It is
-not required to provide any graphical output showing the movement of the toy robot.
+MOVE
+
+LEFT
+
+MOVE
+
+REPORT
+
+-- Expected output
+
+3,3,NORTH
