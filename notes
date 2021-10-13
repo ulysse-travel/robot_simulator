@@ -1,0 +1,16 @@
+run
+place x,y
+move
+left / right
+report
+
+-----------
+si move invalide, ignorer
+
+
+comment gérer le state ?
+
+
+position
+orientation
+{x,y, orientation}
