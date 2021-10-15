@@ -1,5 +1,7 @@
 # Robot Simulator
 
+Running the solution
+Simply run `elixir robot.ex`.
 
 Description
 - The application is a simulation of a toy robot moving on a square tabletop, of
