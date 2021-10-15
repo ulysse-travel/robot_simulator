@@ -1,7 +1,12 @@
 # Robot Simulator
 
 Running the solution
-Simply run `elixir robot.ex`.
+Simply run `iex -S mix` and:
+```
+Robot.evaluate("example_a.txt")
+Robot.evaluate("example_b.txt")
+Robot.evaluate("example_c.txt")
+```
 
 Description
 - The application is a simulation of a toy robot moving on a square tabletop, of

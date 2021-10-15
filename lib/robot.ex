@@ -86,7 +86,3 @@ defmodule Robot do
     %Robot{acc | x: x}
   end
 end
-
-Robot.evaluate("example_a.txt")
-Robot.evaluate("example_b.txt")
-Robot.evaluate("example_c.txt")
